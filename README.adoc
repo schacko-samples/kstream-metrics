@@ -1,0 +1,5 @@
+### Retrieving Kafka Streams metrics
+
+```
+curl localhost:8080/actuator/metrics | jq .
+```
